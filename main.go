@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	print("Hello, World!\n")
-	fmt.Println("Hello, World!")
-}"# w4_csdd_1008" 
+	greeting()
+	fmt.Println(AddInt(1, 3))
+	fmt.Println(calc_n(2, 3))
+}
